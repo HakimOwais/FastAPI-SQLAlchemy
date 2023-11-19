@@ -11,3 +11,16 @@ Database checklist
 4. schema definition ---- schemas.py
 5. ORM functionality ---- db_user.py
 6. API functionality ---- user.py
+
+            <-----Process Overview----->
+
+1. Import required libraries : sqlalchemy, passlib, bcrypt
+2. Create database definition and run it in main.py
+3. Create database models (tables)
+4. Create functionality to write to database
+5. Create schemas:
+    a. Data from user: UserBase
+    b. Response to user : UserDisplay
+6. Create API operation
+
+            <------CRUD Operations----->
