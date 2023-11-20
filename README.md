@@ -24,3 +24,13 @@ Database checklist
 6. Create API operation
 
             <------CRUD Operations----->
+1. Create
+2. Read
+3. Update
+4. Delete
+
+            <----- Relationship ----->
+1. Retrieve elements from multiple tables in a single request.
+2. Define relationship in models.
+3. Add the elements we want to retrieve in schemas
+

@@ -1,6 +1,6 @@
 # Routers (Separate operations into multiple files, Share prefix between multiple operations,share tags) 
 # Refactoring the router ----Adding a second router
-from fastapi import FastAPI, APIRouter, status, Response
+from fastapi import APIRouter, status, Response
 from enum import Enum
 from typing import Optional 
 
