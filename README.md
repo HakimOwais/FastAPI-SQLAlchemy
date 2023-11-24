@@ -34,3 +34,27 @@ Database checklist
 2. Define relationship in models.
 3. Add the elements we want to retrieve in schemas
 
+            <-----------Other Concepts Overview------------->
+1. Error Handling --- Notify a client of an error. Raising an exception anywhere stops the code from running.
+
+    #### HTTP Status Codes:
+    * 1XX : INFORMATIONAL
+    * 2XX : SUCCESS
+    * 3XX : REDIRECTION
+    * 4XX : CLIENT ERROR
+    * 5XX : SERVER ERROR
+    #### Custom Exception 
+    Provide exception handler
+
+2. Custom Response
+    * Standard response is a model, list, database,, dict etc
+    * We can customize trhe Response object
+    * No data conversion (return Response(content=dat, media_type="text/html))
+3. Headers
+    * Add headers in request function definition
+    * Automatic conversion between _ and -
+    * List of headers
+    * Provide custom response headers
+4. Cookies
+5. Form data
+6. CORS
